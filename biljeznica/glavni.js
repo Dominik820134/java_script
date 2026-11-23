@@ -6,7 +6,7 @@ let zadaci;
 try {
   zadaci = await ucitajZadatke();
 } catch (error) {
-  console.error(`Datoteka zadaci.json nije ispravna: ${error.message}`);
+  console.error(`Datoteka 'zadaci.json' nije ispravna: ${error.message}`);
   process.exit(1);
 }
 

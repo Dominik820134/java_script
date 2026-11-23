@@ -9,7 +9,7 @@ export async function ucitajZadatke() {
     const data = JSON.parse(text);
 
     if (!Array.isArray(data)) {
-      throw new Error("Sadržaj datoteke zadaci.json mora biti polje.");
+      throw new Error("Sadržaj datoteke 'zadaci.json' mora biti polje.");
     }
 
     return data;
